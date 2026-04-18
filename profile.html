@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>孙宇彤 - 个人介绍</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #e8e0f0 0%, #d4c8e8 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            color: #4a6fa5;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .avatar {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 30px;
+            border: 5px solid #8b6cb5;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .intro {
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+            line-height: 1.8;
+            color: #555;
+        }
+        
+        .skills {
+            margin-bottom: 40px;
+        }
+
+        .honors {
+            margin-bottom: 40px;
+        }
+
+        .honor-tags {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .honor-tag {
+            padding: 10px 20px;
+            border: 2px solid #8b6cb5;
+            border-radius: 30px;
+            color: #8b6cb5;
+            font-weight: 500;
+            background: transparent;
+            transition: all 0.3s ease;
+        }
+
+        .honor-tag:hover {
+            background: rgba(139, 108, 181, 0.1);
+            transform: translateY(-3px);
+        }
+        
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .skill-tag {
+            padding: 10px 20px;
+            border: 2px solid #4a6fa5;
+            border-radius: 30px;
+            color: #4a6fa5;
+            font-weight: 500;
+            background: transparent;
+            transition: all 0.3s ease;
+        }
+        
+        .skill-tag:hover {
+            background: rgba(74, 111, 165, 0.1);
+            transform: translateY(-3px);
+        }
+        
+        .contact {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #e0e0e0;
+        }
+        
+        .contact h3 {
+            color: #4a6fa5;
+            margin-bottom: 10px;
+        }
+        
+        .contact p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            .avatar {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>孙宇彤</h1>
+        
+        <img src="G:\Program Files\predict_fate\xgpicture1.png" alt="孙宇彤的头像" class="avatar">
+        
+        <div class="intro">
+            <p>大家好，我是孙宇彤，今年9岁，正在读四年级下学期。我是一个活泼开朗的小女孩，德智体美劳全面发展。在学校里，我遵纪爱学，认真完成作业，积极参与课堂活动，是老师的小帮手。在家里，我懂事勤劳，主动帮爸爸妈妈做一些力所能及的家务。</p>
+            <p>我的特长是画画，我喜欢用彩色笔描绘美丽的世界，经常在学校的美术比赛中获奖。此外，我还喜欢跳街舞，随着音乐的节奏舞动让我感到无比快乐。我也热爱各种运动，比如跑步、踢毽子和打羽毛球，这些运动让我保持健康的体魄。</p>
+            <p>我希望能够认识更多的朋友，一起学习，一起成长，共同度过美好的童年时光！</p>
+        </div>
+        
+        <div class="skills">
+            <h3>我的技能</h3>
+            <div class="skill-tags">
+                <span class="skill-tag">跳街舞</span>
+                <span class="skill-tag">画画</span>
+                <span class="skill-tag">跑步</span>
+                <span class="skill-tag">踢毽子</span>
+                <span class="skill-tag">羽毛球</span>
+                <span class="skill-tag">做家务</span>
+            </div>
+        </div>
+
+        <div class="honors">
+            <h3>我的荣誉</h3>
+            <div class="honor-tags">
+                <span class="honor-tag">运河好少年</span>
+                <span class="honor-tag">信仰好少年</span>
+                <span class="honor-tag">志高好少年</span>
+                <span class="honor-tag">登云好少年</span>
+                <span class="honor-tag">杭州市跳绳低年级组单摇第一名</span>
+            </div>
+        </div>
+
+        <div class="contact">
+            <h3>联系方式</h3>
+            <p>QQ: 1234567890</p>
+        </div>
+    </div>
+</body>
+</html>
